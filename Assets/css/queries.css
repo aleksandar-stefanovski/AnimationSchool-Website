@@ -1,0 +1,338 @@
+/* Queries */
+@media(max-width:768px) {
+
+    /* Header */
+    header {
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        height: 800px;
+    }
+
+    .header2 {
+        display: flex;
+        height: 250px;
+    }
+
+
+
+    /* Navigation Bar */
+    nav {
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+
+        height: 240px;
+        min-height: 220px;
+        width: 100%;
+
+        background-color: #191f34;
+    }
+
+    nav .navigation {
+        display: flex;
+        justify-content: space-around;
+        align-self: center;
+        flex-direction: column;
+        margin-bottom: 45px;
+
+        height: 50%;
+        width: 90%;
+    }
+
+    nav .navigation > li {
+        padding: 15px;
+    }
+
+    nav #logo {
+        display: flex;
+        align-self: center;
+
+        height: 79%;
+        width: 15%;
+    }
+
+    nav #logo > h1 {
+        display: flex;
+        align-self: center;
+    }
+
+    nav #logo > a > img {
+        display: flex;
+        margin-top: 8px;
+    }
+
+    /* Main Wraper with text */
+    .main-wrapper {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 130px;
+        width: 100%;
+
+        overflow: hidden;
+    }
+
+    #mainheading > h1 {
+        display: flex;
+        width: 100%;
+    }
+
+    #mainheading > h3 {
+        width: 100%;
+    }
+
+    .main-wrapper > #mainheading {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 700px;
+    }
+
+    #scuter {
+        display: flex;
+        width: 100%;
+
+        height: 250px;
+        overflow: hidden;
+    }
+
+    #scuter > img {
+        display: flex;
+        overflow: hidden;
+    }
+
+    /* Header END*/
+
+
+
+    /*Section01*/
+
+
+    .section01 {
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        height: 1200px;
+    }
+
+    .property-holder {
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+    }
+
+    .holder {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-self: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .holder > img {
+        width: 35%;
+    }
+
+    .holder > p {
+        display: flex;
+        align-self: center;
+
+        width: 70%;
+        padding: 0;
+    }
+
+
+    .holder > h3 {
+        font-size: 23px;
+    }
+
+    .name {
+        width: 50%;
+    }
+
+    /*Section020304*/
+
+    .section02,
+    .section03,
+    .section04 {
+        height: 560px;
+        width: 100%;
+        display: flex;
+
+        position: relative;
+        bottom: 100px;
+
+        overflow: hidden;
+    }
+
+    .section03 {
+        position: relative;
+        bottom: 160px;
+    }
+
+    .section04 {
+        position: relative;
+        bottom: 220px;
+
+        z-index: 200;
+    }
+
+
+
+    .description > p {
+        width: 70%;
+    }
+
+    .example-description {
+        width: 50%;
+    }
+
+    .content {
+        margin-top: 75px;
+        width: 100%;
+    }
+
+    .section04 > .content {
+        margin-top: 75px;
+        width: 100%;
+    }
+
+    .header03 {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    .header03-example {
+        width: 100%;
+        display: flex;
+        margin: auto;
+    }
+
+    .left,
+    .left03,
+    .left04 {
+        width: 100%;
+
+        padding: 0;
+    }
+
+    .left > p,
+    .left03 > p,
+    .left04 > p {
+        width: 50%;
+        padding: 5px;
+    }
+
+    .section02-child {
+        display: flex;
+        margin: 0 auto;
+        width: 60%;
+    }
+
+
+    .header03-example {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .example-preview {
+        margin: 10px 0;
+    }
+
+    /* Footer */
+    footer {
+        height: 400px;
+    }
+
+    .footer-content {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+    }
+
+    .nav02 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footernav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .icons {
+        display: flex;
+
+        position: relative;
+        top: 30px;
+    }
+
+    .logofooter {
+        display: flex;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+}
+
+/* Section01, Section020304 After 447*/
+@media(max-width:447px) {
+    .section01 {
+        height: 1100px;
+    }
+
+    .header03 {
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    .header03 > h2 {
+        width: 300px;
+    }
+
+    .example-preview {
+        display: flex;
+        margin: 0;
+        width: 200px;
+    }
+
+    .example-output {
+        display: flex;
+        width: 100%;
+
+        overflow: hidden;
+    }
+
+    .square {
+        display: flex;
+    }
+}
+
+
+
+
+/* For the .left */
+@media(max-width:1180px) {
+    .left {
+        width: 100%;
+    }
+
+    .left > .example-description {
+        width: 320px;
+    }
+}

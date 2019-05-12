@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+    <meta name="description" content="The web design portfolio of Aleksandar Stefanovski">
+    <meta name="keywords" content="aleksandar stefanovski, aleksandar, website, web design, responsive, mobile, web development, animation, typography">
+
+    <title>Abstract</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="Assets/img/AbstractLogo.png" />
+
+    <!-- style.css -->
+    <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="Assets/css/queries.css">
+    <link rel="stylesheet" type="text/css" href="Assets/css/animations.css">
+    <link rel="stylesheet" type="text/css" href="Assets/css/styleform.css">
+</head>
+
+<body>
+    <!-- Main Container -->
+    <div class="container containerform">
+
+        <!-- Header -->
+        <header>
+            <!-- Navigation Bar -->
+
+            <nav>
+                <!-- Logo -->
+                <div id="logo">
+                    <a href="index.html"><img src="Assets/img/AbstractLogo.svg" alt="Logo"></a>
+                </div>
+
+                <!-- Unordered List -->
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="https://www.lynda.com" target="_blank">Tutorials</a></li>
+                    <li><a href="form.html">Log In</a></li>
+                </ul>
+            </nav>
+            <div class="main-wrapper">
+                <div id="mainheading">
+                    <h1>Learn how to animate websites, easily </h1>
+                    <h3>We thought it would be cool to have an online <strong>CSS-Animation School</strong></h3>
+                    <button type="button" onclick="window.open('form.html', '_self');">Start free trial</button>
+                    <p>Choose the plan that suits you best. <strong>Monthly &18/mo </strong> or <strong>Annual $12/mo.</strong></p>
+
+                </div>
+
+                <!-- SVGANIMATED Scooter -->
+                <div id="scuter">
+                    <img src="Assets/SVGAnimated/AnimatedScuter.svg" alt="SVG Animated Scuter">
+                </div>
+            </div>
+        </header> <!-- Header END -->
+
+        <!-- Header02 -->
+        <div class="header2">
+            <div id="header2-text">
+                <h3>Only CSS Skills required</h3>
+                <h3>Animate your Website for online experiences</h3>
+            </div>
+        </div><!-- Header02 END -->
+
+        <!-- Section01 -->
+        <section class="section01">
+            <!-- Holder for Property -->
+            <div class="property-holder">
+                <!-- Holder01 -->
+                <div class="holder">
+                    <img src="Assets/SVGAnimated/icon-1.svg" alt="Image for 01p" />
+
+                    <h3>CSS: Animation</h3>
+                    <p>Find out how to create CSS animations such as rollover buttons, 3D transforms, animated graphics and logos, load screens, and more.</p>
+                </div>
+                <!-- Holder02 -->
+                <div class="holder">
+                    <img src="Assets/SVGAnimated/icon-2.svg" alt="Image for 02p" />
+                    <h3>Motion Deisgn with CSS</h3>
+                    <p>Learn how to use CSS animations and transitions to enhance your web applications with powerful, information-rich motion and color.</p>
+                </div>
+                <!-- Holder03 -->
+                <div class="holder">
+                    <img src="Assets/SVGAnimated/icon-3.svg" alt="Image for 03p" />
+                    <h3>Creating Web Media</h3>
+                    <p>Get weekly tips for creating, optimizing, and implementing graphhics, animation, video,and audio in the most modern way possible.</p>
+                </div>
+
+            </div>
+            <!--END of Property holder -->
+        </section> <!-- Section01 END-->
+
+        <!-- Section02 -->
+        <section class="section02">
+            <!-- Content of Everything Inside Section02-->
+            <div class="content">
+                <!-- Header / Explanation of Animation -->
+                <div class="header03">
+                    <h2 class="name"> <a href="#"># Animation-delay</a></h2>
+                    <div class="description">
+                        <p> Defines how long the animation has to wait before <strong>starting.</strong> The animation will only be delayed on its first iteration.</p>
+                    </div>
+                </div>
+
+                <!-- SectionChild for the Animation Property-->
+                <section class="section02-child">
+                    <!-- Example Holder -->
+                    <div class="header03-example">
+                        <!-- Left Side-->
+                        <div class="left">
+
+                            <p>animation-delay: 0s;</p>
+
+                            <div class="example-description">
+                                <p> The animation will wait <strong>zero seconds</strong>, and thus start right away.</p>
+                            </div>
+                        </div>
+                        <!-- Animation Example -->
+                        <aside class="example-preview">
+                            <div class="example-output">
+                                <!-- Square Animated -->
+                                <div class="square">
+                                    "Hello" <br />
+                                    "World"
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+
+
+                </section>
+
+            </div>
+        </section>
+
+        <!-- Section 03 -->
+        <section class="section02 section03">
+            <!-- Content of Everything Inside Section03-->
+            <div class="content">
+                <!-- Header / Explanation of Animation -->
+                <div class="header03">
+                    <h2 class="name"> <a href="#"># Animation-direction</a></h2>
+                    <div class="description">
+                        <p> Defines what happens <strong>before</strong> an animation starts and <strong>after</strong> it ends.</p>
+                    </div>
+                </div>
+                <!-- SectionChild for the Animation Property-->
+                <section class="section02-child">
+                    <!-- Example Holder -->
+                    <div class="header03-example">
+                        <!-- Left Side-->
+                        <div class="left left03">
+
+                            <p>Animation-fill-mode: forwards;</p>
+
+                            <div class="example-description">
+                                <p>The last styles applied at the end of the animation are retained <em>afterwards.</em></p>
+                            </div>
+                        </div>
+                        <!-- Animation Example -->
+                        <aside class="example-preview">
+                            <div class="example-output">
+                                <!-- Square Animated -->
+                                <div class="square square02">
+                                    "Hello" <br />
+                                    "World"
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <!-- Section 04 -->
+        <section class="section02 section04">
+            <!-- Content of Everything Inside Section04-->
+            <div class="content">
+                <!-- Header / Explanation of Animation -->
+                <div class="header03">
+                    <h2 class="name"> <a href="#"># Animation-timing-function</a></h2>
+                    <div class="description">
+                        <p> Defines how the values between the start and the end of the animation are calculated.</p>
+                    </div>
+                </div>
+                <!-- SectionChild for the Animation Property-->
+                <section class="section02-child">
+                    <!-- Example Holder -->
+                    <div class="header03-example">
+                        <!-- Left Side-->
+                        <div class="left left04">
+
+                            <p>animation-timing-function: ease-in-out; </p>
+
+                            <div class="example-description">
+                                <p>Like <code>ease</code>, but more pronounced. The animation starts quickly, and decelerates gradually til the end.</p>
+                            </div>
+                        </div>
+                        <!-- Animation Example -->
+                        <aside class="example-preview">
+                            <div class="example-output">
+                                <!-- Square Animated -->
+                                <div class="square square03">
+                                    "Hello" <br />
+                                    "World"
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+
+
+                </section>
+
+            </div>
+        </section>
+
+        <!-- Section 05 -->
+
+        <section class="section05">
+            <div class="trial-content">
+                <h3>Give it a try!</h3>
+                <p>Discover the power of CSS-Animations for free</p>
+
+            </div>
+        </section>
+        <div class="sec05button">
+            <button type="button" onclick="window.open('form.html', '_self');">Free Trial!</button>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <!-- Content of Footer -->
+            <div class="footer-content">
+                <div class="nav02">
+                    <div class="logofooter">
+                        <a href="#"> <img src="Assets/img/AbstractLogo.svg" alt="Logo"></a>
+                    </div>
+                    <!-- Nav for Footer -->
+                    <ul class="footernav">
+                        <li><a href="#">Faq</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                    <!-- Media Icons -->
+                    <div class="icons">
+                        <a href="https://www.facebook.com/"><img src="Assets/img/facebook-icon.png" alt="Facebook Icon"></a>
+                        <a href="https://www.instagram.com/_abstract.design/?hl=en"> <img src="Assets/img/instagram-icon.png" alt="Instagram Icon"></a>
+                        <a href="Assets/img/linkedin-icon.png"> <img src="Assets/img/linkedin-icon.png" alt="Lynda Icon"></a>
+                    </div>
+                </div>
+                <!-- Copyright -->
+                <div class="copyright">
+                    &copy; 2019 Abstract. All Rights Reserved.
+                </div>
+            </div><!-- End of Footer Content -->
+
+        </footer><!-- Footer END -->
+    </div> <!-- Main Container END-->
+</body>
+
+</html>

@@ -1,0 +1,270 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 300">
+    <style>
+        @-webkit-keyframes pulse {
+            0% {opacity: 1; -webkit-transform: scale(1); transform: scale(1);}
+            20% {opacity: 0.8;}
+            100% {-webkit-transform: scale(1.5);transform: scale(1.5); opacity: 0;}
+        }
+        @-moz-keyframes pulse {
+            0% {opacity: 1; -moz-transform: scale(1); transform: scale(1);}
+            20% {opacity: 0.8;}
+            100% {-moz-transform: scale(1.5);transform: scale(1.5); opacity: 0;}
+        }
+        @-o-keyframes pulse {
+            0% {opacity: 1; -o-transform: scale(1); transform: scale(1);}
+            20% {opacity: 0.8;}
+            100% {-o-transform: scale(1.5);transform: scale(1.5); opacity: 0;}
+        }
+        @keyframes pulse {
+            0% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+            20% {opacity: 0.8;}
+            100% {-webkit-transform: scale(1.5);-moz-transform: scale(1.5);-o-transform: scale(1.5);transform: scale(1.5); opacity: 0;}
+        }
+        @-webkit-keyframes test {
+            0% {-webkit-transform: rotate(0deg);transform: rotate(0deg)}
+            20% {-webkit-transform: scale(1);transform: scale(1)}
+            40% {-webkit-transform: scale(0.7);transform: scale(0.7)}
+            80% {-webkit-transform: scale(1);transform: scale(1)}
+            100% {-webkit-transform: rotate(-360deg);transform: rotate(-360deg)}
+        }
+        @-moz-keyframes test {
+            0% {-moz-transform: rotate(0deg);transform: rotate(0deg)}
+            20% {-moz-transform: scale(1);transform: scale(1)}
+            40% {-moz-transform: scale(0.7);transform: scale(0.7)}
+            80% {-moz-transform: scale(1);transform: scale(1)}
+            100% {-moz-transform: rotate(-360deg);transform: rotate(-360deg)}
+        }
+        @-o-keyframes test {
+            0% {-o-transform: rotate(0deg);transform: rotate(0deg)}
+            20% {-o-transform: scale(1);transform: scale(1)}
+            40% {-o-transform: scale(0.7);transform: scale(0.7)}
+            80% {-o-transform: scale(1);transform: scale(1)}
+            100% {-o-transform: rotate(-360deg);transform: rotate(-360deg)}
+        }
+        @keyframes test {
+            0% {-webkit-transform: rotate(0deg);-moz-transform: rotate(0deg);-o-transform: rotate(0deg);transform: rotate(0deg)}
+            20% {-webkit-transform: scale(1);-moz-transform: scale(1);-o-transform: scale(1);transform: scale(1)}
+            40% {-webkit-transform: scale(0.7);-moz-transform: scale(0.7);-o-transform: scale(0.7);transform: scale(0.7)}
+            80% {-webkit-transform: scale(1);-moz-transform: scale(1);-o-transform: scale(1);transform: scale(1)}
+            100% {-webkit-transform: rotate(-360deg);-moz-transform: rotate(-360deg);-o-transform: rotate(-360deg);transform: rotate(-360deg)}
+        }
+        @-webkit-keyframes test2 {
+            0% {-webkit-transform: rotate(0deg);transform: rotate(0deg)}
+            100% {-webkit-transform: rotate(-360deg);transform: rotate(-360deg)}
+        }
+        @-moz-keyframes test2 {
+            0% {-moz-transform: rotate(0deg);transform: rotate(0deg)}
+            100% {-moz-transform: rotate(-360deg);transform: rotate(-360deg)}
+        }
+        @-o-keyframes test2 {
+            0% {-o-transform: rotate(0deg);transform: rotate(0deg)}
+            100% {-o-transform: rotate(-360deg);transform: rotate(-360deg)}
+        }
+        @keyframes test2 {
+            0% {-webkit-transform: rotate(0deg);-moz-transform: rotate(0deg);-o-transform: rotate(0deg);transform: rotate(0deg)}
+            100% {-webkit-transform: rotate(-360deg);-moz-transform: rotate(-360deg);-o-transform: rotate(-360deg);transform: rotate(-360deg)}
+        }
+        @-webkit-keyframes test-inverted {
+            0% {-webkit-transform: rotate(0deg);transform: rotate(0deg)}
+            100% {-webkit-transform: rotate(-360deg);transform: rotate(-360deg)}
+        }
+        @-moz-keyframes test-inverted {
+        0% {-moz-transform: rotate(0deg);transform: rotate(0deg)}
+        100% {-moz-transform: rotate(-360deg);transform: rotate(-360deg)}
+
+        }
+        @-o-keyframes test-inverted {
+            0% {-o-transform: rotate(0deg);transform: rotate(0deg)}
+            100% {-o-transform: rotate(-360deg);transform: rotate(-360deg)}
+        }
+        @keyframes test-inverted {
+            0% {-webkit-transform: rotate(0deg);-moz-transform: rotate(0deg);-o-transform: rotate(0deg);transform: rotate(0deg)}
+            100% {-webkit-transform: rotate(-360deg);-moz-transform: rotate(-360deg);-o-transform: rotate(-360deg);transform: rotate(-360deg)}
+        }
+        @-webkit-keyframes cog-rotate {
+            0% {-webkit-transform: rotate(0deg);transform: rotate(0deg)}
+            60% {-webkit-transform: rotate(360deg);transform: rotate(360deg)}
+            100% {-webkit-transform: rotate(0deg);transform: rotate(0deg)}
+        }
+        @-moz-keyframes cog-rotate {
+            0% {-moz-transform: rotate(0deg);transform: rotate(0deg)}
+            60% {-moz-transform: rotate(360deg);transform: rotate(360deg)}
+            100% {-moz-transform: rotate(0deg);transform: rotate(0deg)}
+        }
+        @-o-keyframes cog-rotate {
+            0% {-o-transform: rotate(0deg);transform: rotate(0deg)}
+            60% {-o-transform: rotate(360deg);transform: rotate(360deg)}
+            100% {-o-transform: rotate(0deg);transform: rotate(0deg)}
+        }
+        @keyframes cog-rotate {
+            0% {-webkit-transform: rotate(0deg);-moz-transform: rotate(0deg);-o-transform: rotate(0deg);transform: rotate(0deg)}
+            60% {-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);-o-transform: rotate(360deg);transform: rotate(360deg)}
+            100% {-webkit-transform: rotate(0deg);-moz-transform: rotate(0deg);-o-transform: rotate(0deg);transform: rotate(0deg)}
+        }
+        @-webkit-keyframes wd {
+            0% {-webkit-transform: scale(1);transform: scale(1);}
+            50% {-webkit-transform: scale(1);transform: scale(1);}
+            59% {-webkit-transform: scale(1.1);transform: scale(1.1);}
+            62% {-webkit-transform: scale(1);transform: scale(1);}
+            100% {-webkit-transform: scale(1);transform: scale(1);}
+        }
+        @-moz-keyframes wd {
+            0% {-moz-transform: scale(1);transform: scale(1);}
+            50% {-moz-transform: scale(1);transform: scale(1);}
+            59% {-moz-transform: scale(1.1);transform: scale(1.1);}
+            62% {-moz-transform: scale(1);transform: scale(1);}
+            100% {-moz-transform: scale(1);transform: scale(1);}
+        }
+        @-o-keyframes wd {
+            0% {-o-transform: scale(1);transform: scale(1);}
+            50% {-o-transform: scale(1);transform: scale(1);}
+            59% {-o-transform: scale(1.1);transform: scale(1.1);}
+            62% {-o-transform: scale(1);transform: scale(1);}
+            100% {-o-transform: scale(1);transform: scale(1);}
+        }
+        @keyframes wd {
+            0% {-webkit-transform: scale(1);-moz-transform: scale(1);-o-transform: scale(1);transform: scale(1);}
+            50% {-webkit-transform: scale(1);-moz-transform: scale(1);-o-transform: scale(1);transform: scale(1);}
+            59% {-webkit-transform: scale(1.1);-moz-transform: scale(1.1);-o-transform: scale(1.1);transform: scale(1.1);}
+            62% {-webkit-transform: scale(1);-moz-transform: scale(1);-o-transform: scale(1);transform: scale(1);}
+            100% {-webkit-transform: scale(1);-moz-transform: scale(1);-o-transform: scale(1);transform: scale(1);}
+        }
+        svg:hover .misu, svg:hover .satelite2, svg:hover .satelite3, svg:hover .cog, svg:hover .wds {
+            transform-box: fill-box;
+            -webkit-transform-origin: center center;
+            -moz-transform-origin: center center;
+            -ms-transform-origin: center center;
+            -o-transform-origin: center center;
+            transform-origin: center center;
+        }
+        svg:hover .pulse {
+            transform-box: fill-box;
+            -webkit-transform-origin: 150px 150px;
+            -moz-transform-origin: 150px 150px;
+            -ms-transform-origin: 150px 150px;
+            -o-transform-origin: 150px 150px;
+            transform-origin: 150px 150px;
+            -webkit-animation: pulse 1.5s ease-in-out 2;
+            -moz-animation: pulse 1.5s ease-in-out 2;
+            -o-animation: pulse 1.5s ease-in-out 2;
+            animation: pulse 1.5s ease-in-out 2;
+        }
+        svg:hover .misu {
+            -webkit-animation: test 2.5s ease 1;
+            -moz-animation: test 2.5s ease 1;
+            -o-animation: test 2.5s ease 1;
+            animation: test 2.5s ease 1;
+        }
+        svg:hover .satelite2 {
+            /*animation: test 3.5s ease 1;*/
+            -webkit-animation: test2 3.5 ease 1;
+            -moz-animation: test2 3.5 ease 1;
+            -o-animation: test2 3.5 ease 1;
+            animation: test2 3.5 ease 1;
+        }
+        svg:hover .satelite3 {
+            -webkit-animation: test-inverted 2.5s ease 1;
+            -moz-animation: test-inverted 2.5s ease 1;
+            -o-animation: test-inverted 2.5s ease 1;
+            animation: test-inverted 2.5s ease 1;
+        }
+        svg:hover .cog {
+            -webkit-animation: cog-rotate 10s ease-out infinite;
+            -moz-animation: cog-rotate 10s ease-out infinite;
+            -o-animation: cog-rotate 10s ease-out infinite;
+            animation: cog-rotate 10s ease-out infinite;
+        }
+        svg:hover .wds {
+            -webkit-animation: wd 10s infinite;
+            -moz-animation: wd 10s infinite;
+            -o-animation: wd 10s infinite;
+            animation: wd 10s infinite;
+        }
+    </style>
+    <defs>
+        <linearGradient id="linear-gradient" y1="152" x2="300" y2="152" gradientTransform="matrix(0.48, 0.88, 0.88, -0.48, -55.34, 91.35)"
+            gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#ccecfc" />
+            <stop offset="0.15" stop-color="#b9e0f4" />
+            <stop offset="0.44" stop-color="#89c2df" />
+            <stop offset="0.86" stop-color="#3b92be" />
+            <stop offset="0.88" stop-color="#3790bc" />
+        </linearGradient>
+        <clipPath id="clip-path" transform="translate(0)">
+            <rect width="300" height="300" style="fill:none" />
+        </clipPath>
+        <linearGradient id="linear-gradient-2" x1="25" y1="152" x2="275" y2="152" xlink:href="#linear-gradient" />
+        <linearGradient id="linear-gradient-3" x1="50" y1="152" x2="250" y2="152" gradientTransform="matrix(0.48, 0.88, 0.88, -0.48, -55.34, 91.35)"
+            gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#89d0cc" />
+            <stop offset="1" stop-color="#3790bc" />
+        </linearGradient>
+        <linearGradient id="linear-gradient-4" x1="131.15" y1="150" x2="168.85" y2="150" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#40b7ce" />
+            <stop offset="1" stop-color="#00a9c7" />
+        </linearGradient>
+    </defs>
+    <title>animated-icon</title>
+     <circle cx="150" cy="150" r="10" class="pulse"
+            style="opacity:0.40;isolation:isolate;fill:url(#linear-gradient-1)"
+    /> 
+    <g class="pulsating-disk" style="clip-path:url(#clip-path)">
+        <circle
+            cx="150"
+            cy="150"
+            r="90"
+            class="pulse"
+            style="opacity:0.60;isolation:isolate;fill:url(#linear-gradient-2)"
+        />
+    </g>
+     <g class="background cog" style="clip-path:url(#clip-path)">
+        <circle
+            cx="150"
+            cy="150"
+            r="99.98"
+            transform="translate(-53.58 209.61) rotate(-61.32)"
+            style="isolation:isolate;fill:url(#linear-gradient-3)"
+        />
+    </g> 
+     <g class="small-twin satelite3" style="clip-path:url(#clip-path)">
+        <path
+            d="M213.15,195.69a12.14,12.14,0,0,0-15.28-1.84l-91.6-91.6A12.14,12.14,0,0,0,104.43,87a12.44,12.44,0,0,0-17.69-.14,12.86,12.86,0,0,0-.21,18,12.66,12.66,0,0,0,14.79,2.33l91.6,91.6a12.66,12.66,0,1,0,20.23-3.11Z"
+            transform="translate(0)"
+            style="fill:#fff"
+        />
+    </g> 
+     <g class="twin-big misu" style="clip-path:url(#clip-path)">
+         
+        <path 
+            d="M193,115.27A21,21,0,0,0,203.13,118,19.72,19.72,0,1,0,183.48,98.4a18,18,0,0,0,4.31,12.21l-40.52,40.52L98.43,169.49c-3.53-5.08-9.45-7.06-14.83-5a12.26,12.26,0,0,0-7.51,15.86c2.45,6.52,9.94,10.39,16.46,7.94A12.39,12.39,0,0,0,100.89,176l50.26-18.9Z"
+            transform="translate(0)"
+            style="fill:#fff"
+        />
+    </g> 
+     <g class="single-satelite satelite2" style="clip-path:url(#clip-path)">
+      
+       <path 
+            d="M159.83,206.28A17.11,17.11,0,0,0,153,204V160h-7v44a20.73,20.73,0,0,0-14.67,10.61,21,21,0,1,0,28.5-8.34Z"
+            transform="translate(0)"
+            style="fill:#fff"
+        />
+    </g> 
+     <g class="white-disk wds" style="clip-path:url(#clip-path)">
+        <circle
+            cx="150"
+            cy="150"
+            r="29.99"
+            transform="translate(-53.58 209.61) rotate(-61.32)"
+            style="fill:#fff;isolation:isolate"
+        />
+    </g> 
+    <g class='cog' style="clip-path:url(#clip-path)">
+        
+    
+        <path
+            d="M164.86,159.25l-1.68-1.68a15.83,15.83,0,0,0,1.64-4.45l2.32.12a1.67,1.67,0,0,0,1.71-1.62s0-.1,0-.15v-3.09a1.77,1.77,0,0,0-1.78-1.76h0l-2.71-.2a9.15,9.15,0,0,0-2.13-4.79l1.74-1.67c.69-.69.81-1.11.12-1.8l-2.2-2.2c-.69-.69-1.28-.75-2,0l-1.78,1.78a18.59,18.59,0,0,0-4.71-2.1v-2.56a1.83,1.83,0,0,0-1.8-1.8h-3.21a1.77,1.77,0,0,0-1.78,1.76h0l.24,2.2a15.83,15.83,0,0,0-4.45,1.64l-1.68-1.68c-.69-.69-2.3-.2-3,.49l-2.2,2.2a1.64,1.64,0,0,0,0,2.32l.09.08,1.63,1.63a18.71,18.71,0,0,0-2.06,4.81h-2.29a1.8,1.8,0,0,0-1.8,1.73v3.12a1.77,1.77,0,0,0,1.77,1.77h0l2.32.12a19.47,19.47,0,0,0,2.1,5L135.8,160c-.69.69-1.05,1.7-.36,2.4l2.2,2.2c.69.69,1.54.16,2.23-.53l1.54-1.54a9.74,9.74,0,0,0,5,2.19l.1,2.3a1.86,1.86,0,0,0,1.87,1.74h3.15a1.77,1.77,0,0,0,1.78-1.76h0v-2.3a18.71,18.71,0,0,0,4.81-2.06l1.63,1.63a1.44,1.44,0,0,0,2.23,0l2.23-2.17C164.91,161.37,165.55,159.94,164.86,159.25Zm-20.3-3.81a7.48,7.48,0,1,1,10.58,0h0A7.48,7.48,0,0,1,144.56,155.43Z"
+            transform="rotate"
+            style="fill:#469cbf"
+        />
+    </g>
+</svg>
